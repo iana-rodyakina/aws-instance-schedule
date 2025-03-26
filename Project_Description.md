@@ -93,3 +93,37 @@ The solution uses only managed AWS services (CloudFormation, Lambda, EventBridge
 
 6. **Notifications**  
 Amazon SNS can be used to send alerts for changes or errors, improving process visibility.
+## Screenshots
+
+### 1. Instance Tagging and State Change
+
+The following screenshots show the instance tagging and automatic state change based on the configured schedule:
+
+![EC2 State Change](screenshots/ec2-scheduler-tagging.png)
+
+*The tag was successfully added, and the instance automatically stopped according to the schedule.*
+
+### 2. CloudFormation Stack
+
+![CloudFormation Stack](screenshots/cloudformation-stack.png)
+
+*Successful deployment of the Instance Scheduler using AWS CloudFormation.*
+
+### 3. DynamoDB Configuration
+
+![DynamoDB Tables](screenshots/dynamodb-schedules.png)
+
+*Schedule and period configurations stored in DynamoDB.*
+
+---
+
+## Sources and References
+
+- AWS Instance Scheduler GitHub repository:  
+  [https://github.com/awslabs/aws-instance-scheduler](https://github.com/awslabs/aws-instance-scheduler)
+
+- AWS Documentation:  
+  [https://docs.aws.amazon.com/](https://docs.aws.amazon.com/)
+
+- AWS Architecture Icons:  
+  [https://aws.amazon.com/architecture/icons/](https://aws.amazon.com/architecture/icons/)
