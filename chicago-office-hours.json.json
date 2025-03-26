@@ -1,0 +1,7 @@
+{
+  "type": "schedule",
+  "name": "chicago-office-hours",
+  "description": "Office hours in Chicago (Central)",
+  "periods": ["office-hours"],
+  "timezone": "US/Central"
+}
