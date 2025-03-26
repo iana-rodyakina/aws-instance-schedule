@@ -1,4 +1,4 @@
-# Project Description: Instance Scheduler on AWS
+
 # Project Description: Instance Scheduler on AWS
 
 ## 1. Project Name:
